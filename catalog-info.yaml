@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: policy-management-api
+  description: Fictional policy management API for AppSec training
+  annotations:
+    github.com/project-slug: zia-appsec-training-lab/policy-management-api
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:default/policy-engineering
